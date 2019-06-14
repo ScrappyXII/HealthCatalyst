@@ -20,7 +20,7 @@ The solution was built and tested using Visual Studio 2019 Community Edition for
 * It is built on .NET Core 2.1
 * It has models for Person w/ a People context, a controller for People, and a View for the Search GUI
 * It leverages an Sqlite DB (including a sample seeded DB) and uses object relational mapping
-* It uses React along with Node 
+* It uses React (w/ Node) 
 * It contains unit tests for the People controller and the Person model
 
 ### Pre-reqs
@@ -39,8 +39,8 @@ NOTE: this is not compatible with Visual Studio 2017 or earlier editions.
 * Build All (or Rebuild All) in Visual Studio
 * Run the project in Visual Studio
 
-The Health Catalyst People Search app will be loaded in the browser. You can then:
-* Click Search People and it will display all the seeded people
+The Health Catalyst People Search app will be loaded in a browser. You can then:
+* Click Search People and it will display all the people in the seeded DB
 * Enter search criteria to filter the results, such as entering the letter M and clicking Search People
 * Enter search criteria that will display no results, such as entering a ! and clicking Search People
 
