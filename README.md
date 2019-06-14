@@ -16,7 +16,7 @@
 
 ### Overview
 
-The solution was built using Visual Studio 2019 Community Edition for Mac (compatible with Visual Studio for Windows):
+The solution was built and tested using Visual Studio 2019 Community Edition for Mac (compatible and also validated with Visual Studio 2019 Community Edition for Windows):
 * It is built on .NET Core 2.1
 * It has models for Person w/ a People context, a controller for People, and a View for the Search GUI
 * It leverages an Sqlite DB (including a sample seeded DB) and uses object relational mapping
@@ -25,9 +25,11 @@ The solution was built using Visual Studio 2019 Community Edition for Mac (compa
 
 ### Pre-reqs
 
-* Visual Studio 2019 (Mac or Windows)
+* Visual Studio 2019 (Mac or Windows) Community Edition
 * .NET Core 2.1
 * Node (see www.nodejs.org) 
+
+NOTE: this is not compatible with Visual Studio 2017 or earlier editions.
 
 ### Running the Solution
 
@@ -45,7 +47,7 @@ The Health Catalyst People Search app will be loaded in the browser. You can the
 ### Simulating Slow Searches
 
 To simulate a slow search, please use Google Chrome. 
-* With the HealthCatalyst project running, open Chrome and go localhost:5000 
+* With the HealthCatalyst project running, open Chrome to the Health Catalyst People Search site (for example: localhost:5000 on Mac; use the URL relevant to your development envionment) 
 * Open the Developer Tools in Chrome (for example, via View -> Developer -> Developer Tools)
 * Go to the Network tab in the Chrome Developer Tools, and change the Throttling option from Online to a slower option, try a Search and see how the UI handles delay
 * Go to the Network tab in the Chrome Developer Tools, and change the Throttling option from Online to the Offline option, try a Search and see how UI handles no connection
