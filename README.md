@@ -37,6 +37,11 @@ The solution was built using Visual Studio 2019 Community Edition for Mac (compa
 * Build All (or Rebuild All) in Visual Studio
 * Run the project in Visual Studio
 
+The Health Catalyst People Search app will be loaded in the browser. You can then:
+* Click Search People and it will display all the seeded people
+* Enter search criteria to filter the results, such as entering the letter M and clicking Search People
+* Enter search criteria that will display no results, such as entering a ! and clicking Search People
+
 ### Simulating Slow Searches
 
 To simulate a slow search, please use Google Chrome. 
