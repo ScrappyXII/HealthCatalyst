@@ -47,7 +47,7 @@ The Health Catalyst People Search app will be loaded in the browser. You can the
 ### Simulating Slow Searches
 
 To simulate a slow search, please use Google Chrome. 
-* With the HealthCatalyst project running, open Chrome to the Health Catalyst People Search site (for example: localhost:5000 on Mac; use the URL relevant to your development envionment) 
+* With the HealthCatalyst project running, open Chrome to the Health Catalyst People Search site (for example for my environment this was localhost:5000 on Mac and localhost:50645 on Windows; use the URL relevant to your development envionment) 
 * Open the Developer Tools in Chrome (for example, via View -> Developer -> Developer Tools)
 * Go to the Network tab in the Chrome Developer Tools, and change the Throttling option from Online to a slower option, try a Search and see how the UI handles delay
 * Go to the Network tab in the Chrome Developer Tools, and change the Throttling option from Online to the Offline option, try a Search and see how UI handles no connection
