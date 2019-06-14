@@ -31,8 +31,11 @@ The solution was built using Visual Studio 2019 Community Edition for Mac (compa
 
 ### Running the Solution
 
-* Clone the project
-* Select the HealthCatalyst Project and run that project
+* Clone the project from Github
+* Open the HealthCatalyst solution in Visual Studio
+* Select the HealthCatalyst project in Visual Studio
+* Build All (or Rebuild All) in Visual Studio
+* Run the project in Visual Studio
 
 ### Simulating Slow Searches
 
