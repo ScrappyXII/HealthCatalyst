@@ -1,0 +1,8 @@
+
+*.lock
+*.cache
+HealthCatalystTests/obj/HealthCatalystTests.csproj.nuget.g.props
+HealthCatalystTests/obj/HealthCatalystTests.csproj.nuget.g.targets
+HealthCatalystTests/obj/project.assets.json
+.vs/HealthCatalyst/xs/UserPrefs.xml
+.vs/HealthCatalyst/xs/sqlite3/storage.ide
