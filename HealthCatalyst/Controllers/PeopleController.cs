@@ -37,11 +37,7 @@ namespace Manza.HealthCatalyst.Controllers
                 return BadRequest(ModelState);
             }
 
-            // look for any Person whose first name or last name contains the search string
-            //var people = await _context.People.Where(x => x.FirstName.Contains(search, StringComparison.OrdinalIgnoreCase) ||
-            //                                              x.LastName.Contains(search, StringComparison.OrdinalIgnoreCase))
-            //                                              .ToListAsync();
-
+            // look for any Person whose name contains the search string
             var people = await _context.People.Where(x => x.FullName.Contains(search, StringComparison.OrdinalIgnoreCase))
                                                           .ToListAsync();
 
